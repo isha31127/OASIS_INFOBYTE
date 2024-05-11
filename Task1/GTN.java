@@ -1,5 +1,5 @@
 import java.util.*;
-public class GuessTheNuM{
+public class GTN{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
