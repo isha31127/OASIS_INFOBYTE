@@ -90,5 +90,6 @@ public class atm {
                     System.out.println("Invalid choice. Please try again.");
             }
         }while(choice!=-1);
+        sc.close();
     }
 }
