@@ -1,5 +1,5 @@
 import java.util.*;
-public class GTN {
+public class GuessTheNuM{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
@@ -32,6 +32,7 @@ public class GTN {
         System.out.println("\n\n********************************You have used your all "+i+" attempt********************************** ");
         System.out.println("\n\nCorrect guess was "+ans);
     } 
+    sc.close();
     System.out.println("\nThanks for playing.....\n\n BYE :)");
     }
 }
